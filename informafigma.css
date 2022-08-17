@@ -1,0 +1,250 @@
+/* Desktop - 1 */
+
+.corpo {
+    position: relative;
+    width: 1450px;
+    height: 1503px;
+    background: #FFFFFF;
+}
+
+.cabeça {
+    position: absolute;
+    width: 1450px;
+    height: 158px;
+    left: 0px;
+    top: 7px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* 1° informativo */
+
+.corpo-da-informacao {
+    position: absolute;
+    width: 1450px;
+    height: 588px;
+    left: -2px;
+    top: 189px;
+}
+
+.informacaomoldal {
+    position: absolute;
+    width: 564px;
+    height: 508px;
+    left: 64px;
+    top: 45px;
+}
+
+.corpo-carrosel {
+    position: absolute;
+    width: 751px;
+    height: 554px;
+    left: 685px;
+    top: 20px;
+}
+
+
+/* Rectangle 18 */
+
+.informativo1 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 10px;
+    top: 13px;
+    background: url(dpe-pa-defensoria-publica-do-estado-do-para-1602105701.png);
+}
+
+
+/* Rectangle 19 */
+
+.informativo2 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 195px;
+    top: 13px;
+    background: url(download.jpg);
+}
+
+
+/* Rectangle 20 */
+
+.informativo3 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 380px;
+    top: 13px;
+    background: url(dpe-pa-defensoria-publica-do-estado-do-para-1602105701.png);
+}
+
+
+/* Rectangle 21 */
+
+.informativo4 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 10px;
+    top: 172px;
+    background: url(download.jpg);
+}
+
+
+/* Rectangle 22 */
+
+.informativo5 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 195px;
+    top: 172px;
+    background: url(dpe-pa-defensoria-publica-do-estado-do-para-1602105701.png);
+}
+
+
+/* Rectangle 23 */
+
+.informativo6 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 380px;
+    top: 172px;
+    background: url(download.jpg);
+}
+
+
+/* Rectangle 24 */
+
+.informativo7 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 10px;
+    top: 331px;
+    background: url(dpe-pa-defensoria-publica-do-estado-do-para-1602105701.png);
+}
+
+
+/* Rectangle 25 */
+
+.informativo8 {
+    position: absolute;
+    width: 185px;
+    height: 159px;
+    left: 195px;
+    top: 331px;
+    background: url(download.jpg);
+}
+
+
+/* Precisa de ajuda? */
+
+.botao1 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 70.51%;
+    right: 8.91%;
+    top: 31.67%;
+    bottom: 31.67%;
+    background: linear-gradient(0deg, #FCF9F9, #FCF9F9), rgba(16, 16, 16, 0.2);
+    mix-blend-mode: hard-light;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+/* Precisa de ajuda? */
+
+.text-ajuda {
+    position: absolute;
+    width: 324px;
+    height: 56px;
+    left: 123px;
+    top: 74px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #ACACAC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Rectangle//  Precisa de ajuda?  */
+
+.corpo-ajuda {
+    position: absolute;
+    width: 1450px;
+    height: 156px;
+    left: 0px;
+    top: 12px;
+    background: #025381;
+}
+
+
+/* Informações do Usuario mais informações */
+
+.usuario-mais {
+    position: absolute;
+    left: 21.86%;
+    right: 58.34%;
+    top: 43.45%;
+    bottom: 21.11%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: luminosity;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Informações do Usuario section*/
+
+.corpo-info-usuario-mais {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5%;
+    bottom: 0%;
+}
+
+
+/* ==============foto top =============== */
+
+.foto-top {
+    position: absolute;
+    left: 21.17%;
+    right: 59.03%;
+    top: 42.41%;
+    bottom: 22.15%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: luminosity;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.foto-top-img {
+    position: absolute;
+    left: 1.45%;
+    right: 85.45%;
+    top: 16.46%;
+    bottom: 16.46%;
+    background: url(LogoDPECompress.png)
+}

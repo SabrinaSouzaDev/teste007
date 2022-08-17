@@ -2060,13 +2060,12 @@ header.header-dropdown-fudark .open .is-sticky .dropdown-menu {
 .text-center.bottom-line:after {
     margin: 30px auto 0
 }
-s
-.btn.i-left i,
+
+s .btn.i-left i,
 .btn.inline,
 .btn.right-pad,
 i.right-pad {
     margin-right: 10px;
-    
 }
 
 .text-right .bottom-line:after,
@@ -8079,10 +8078,10 @@ section.no-overflow {
     .single-screen .top-padding-xlg {
         padding-top: 20px!important
     }
-    .pad-md {
+    /* .pad-md {
         padding-right: 15px!important;
         padding-left: 15px!important
-    }
+    } */
     .pad-md-menor {
         padding-right: 5px!important;
         padding-left: 5px!important

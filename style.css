@@ -1030,7 +1030,7 @@ a:hover {
 }
 
 .navbar-default .navbar-nav li a .btn {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     text-transform: uppercase
 }
@@ -1103,7 +1103,7 @@ header .nav>li>a:hover {
 .navbar-brand,
 .navbar-nav>li .extra-menu-item,
 .navbar-nav>li>a {
-    line-height: 80px;
+    line-height: 50px;
     height: 80px;
     -webkit-transition: .2s all ease-in-out;
     -moz-transition: .2s all ease-in-out;
@@ -1121,11 +1121,12 @@ header .nav>li>a:hover {
     height: 60px
 }
 
-.navbar-brand,
+
+/* .navbar-brand,
 .navbar-nav>li>.extra-menu-item,
 .navbar-nav>li>a {
     padding: 0 15px
-}
+} */
 
 .dropdown-menu {
     margin: 0;
@@ -1248,7 +1249,7 @@ header .nav>li>a:hover {
 }
 
 .sticky-navigation {
-    line-height: 10px;
+    line-height: 15px;
     z-index: 999;
     width: 100%
 }
@@ -1258,7 +1259,7 @@ header .nav>li>a:hover {
 .is-sticky .navbar-brand,
 .is-sticky .navbar-nav>li .extra-menu-item,
 .is-sticky .navbar-nav>li>a {
-    line-height: 65px;
+    line-height: 30px;
     height: 65px
 }
 
@@ -2138,13 +2139,13 @@ i.right-pad {
     height: 50px;
     margin-bottom: 20px;
     border: 0;
-    background: url(../images/base/separator/hr-11.png) center center repeat-x
+    background: url(../.png) center center repeat-x
 }
 
 .btn {
     z-index: 1;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 0px;
+    margin-bottom: 11px;
     padding: 8px 22px;
     border-width: 2px
 }
@@ -2168,7 +2169,7 @@ i.right-pad {
 .btn.btn-lg {
     font-size: 16px;
     font-weight: 600;
-    padding: 12px 35px
+    padding: 9px 31px
 }
 
 .nav-tabs>li>a,
@@ -4277,11 +4278,6 @@ ul.square-list li:before {
 .arrow-list .list-group-submenu .list-group-item,
 .ex-panel.front-toggle .list-group-item {
     padding-left: 30px
-}
-
-.list-group-item.in:hover,
-.list-group-submenu .list-group-item {
-    background-color: #f5f5f5
 }
 
 .list-group-item.in,
@@ -6663,8 +6659,8 @@ a.text-gray {
 }
 
 .footer-bottom {
-    font-size: 13px;
-    padding: 20px 0
+    font-size: 10px;
+    padding: 10px 0
 }
 
 address .feature-box {

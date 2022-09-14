@@ -17,7 +17,9 @@
     <!---->
     <!-- ELEMENTS BASE CSS -->
     <link href="elements.min.css" rel="stylesheet" type="text/css" />
-   <link href="boodstrap-min.css" rel="stylesheet" type="text/css" />
+    <link href="boodstrap-min.css" rel="stylesheet" type="text/css" />
+    <link href="Soft-UI-Aside-Navbar.css" rel="stylesheet" type="text/css" /> 
+   
     <link href="all.min.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="styles02.css" rel="stylesheet" type="text/css" />
@@ -33,7 +35,7 @@
 </head>
 
 <body>
-    <!-- Page Loader -->
+<!-- Page Loader -->
     <div class="loader-inner">
         <img src="" alt="">
     </div>
@@ -42,70 +44,39 @@
         <a class="close-toggle" href="#">
             <div class="sliding_close_helper_overlay"></div>
         </a>
-     
-        <div id="side-nav" class="side-nav dark-side-nav menu  ">
-        <div class="nav-close-wrapper">
-        <a href="#" class="close-toggle"><i class="fa fa-close icon-shape-circle icon-light icon-theme-bg"></i></a>
-    </div>
-           <div class=" col-md-10 col-xl-2 px-sm-4 px-0">
-           
-    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100" style="padding-top: 7px;margin-right: -2px;"><a class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none" href="#"><span class="fs-5 d-none d-sm-inline">Menu do Usuario</span></a>
-        <ul id="menu" class="nav flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start side-nav-menu">
-            <li class="nav-item"><a class="nav-link align-middle px-0" href="#"><i class="fa right-pad fa-home fs-4 bi-house"></i><span class="ms-1 d-none d-sm-inline">Serviços On-Line</span></a></li>
-            <li class="nav-item"><a class="nav-link px-0 align-middle dropdown-toggle" href="#submenu1" data-bs-toggle="collapse" role="button"><i class="fa right-pad fa-bar-chart fs-4 bi-speedometer2"></i><span class="ms-1 d-none d-sm-inline">BIBLIOTECA VIRTUAL | ESDPA</span></a>
-               <!--- <ul id="submenu1" class="nav flex-column ms-1 collapse ms-1 ms-md-3">
-                    <li class="w-100"><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                    <li><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                </ul>--->
-            </li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-table fs-4 bi-table"></i><span class="ms-1 d-none d-sm-inline">SUPRIMENTOS</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#submenu2" data-bs-toggle="collapse"><i class="fa right-pad fa-glass fs-4 bi-bootstrap"></i><span class="ms-1 d-none d-sm-inline">PEDIDO DE DIÁRIA</span></a>
-                <ul id="submenu2" class="collapse nav flex-column ms-1" data-bs-parent="#menu">
-                    <li class="w-100"><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                    <li><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                </ul>
-            </li>
-           
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">ACOMPANHAR PEDIDOS</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">PRESTAÇÃO DE CONTAS</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">MUDAR SENHA</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">PENDÊNCIAS: (0)</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">MENU NTIC</span></a></li>
-        </ul>
-        <ul id="menu-1" class="nav flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start side-nav-menu">
-            <li class="nav-item"><a class="nav-link align-middle px-0" href="#"><i class="fa right-pad fa-home fs-4 bi-house"></i><span class="ms-1 d-none d-sm-inline">Informações úteis</span></a></li>
-            <li class="nav-item"><a class="nav-link px-0 align-middle dropdown-toggle" href="#submenu1" data-bs-toggle="collapse" role="button"><i class="fa right-pad fa-bar-chart fs-4 bi-speedometer2"></i><span class="ms-1 d-none d-sm-inline">POLÍTICA DE SEGURANÇA DA INFORMAÇÃO</span></a>
-                <ul id="submenu-1" class="nav flex-column ms-1 collapse ms-1 ms-md-3">
-                    <li class="w-100"><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                    <li><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-table fs-4 bi-table"></i><span class="ms-1 d-none d-sm-inline">LEGISLAÇÃO</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#submenu2" data-bs-toggle="collapse"><i class="fa right-pad fa-glass fs-4 bi-bootstrap"></i><span class="ms-1 d-none d-sm-inline">LISTA TELEFÔNICA</span></a>
-                <ul id="submenu-2" class="collapse nav flex-column ms-1" data-bs-parent="#menu">
-                    <li class="w-100"><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                    <li><a class="nav-link px-0" href="#"><span class="d-none d-sm-inline">Item</span></a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">MANUAL DE <br> PROCEDIMENTOS INTERNOS</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">MANUAL DIÁRIAS</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">TERMO DE ADESÃO PROJUDI</span></a></li>
-            <li><a class="nav-link px-0 align-middle" href="#"><i class="fa right-pad fa-users fs-4 bi-people"></i><span class="ms-1 d-none d-sm-inline">MANUAL DE PROCEDIMENTOS INTERNOS</span></a></li>
-        </ul>
-        <hr  class="dropdown-divider" />
-        <div class="dropdown pb-4" style="padding-left: 0px;margin-left: 3px;"><a id="dropdownUser1" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" href="#" data-bs-toggle="dropdown" style="padding-right: 106px;padding-top: 0px;padding-bottom: 0px;margin-left: 8px;margin-right: 6px;padding-left: 50px;"><i class=" fa fa-right fa-lg fa-cog"></i><span class="d-none d-sm-inline mx-1"></span></a>
-            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-               <!-- <li><a class="dropdown-item" href="#">...</a></li>-->
-                <li><a class="dropdown-item" href="#">Alterar senha</a></li>
-                <!--<li><a class="dropdown-item" href="#">Profile</a></li>--->
-                <li>
-                    <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Sair</a></li>
-            </ul>
-        </div>
-    </div>
+        <div id="side-nav" class="side-nav dark-side-nav menu ">
+            <div class="nav-close-wrapper">
+                <a href="#" class="close-toggle"><button data-animation="fadeInUpBig" data-animation-delay="1500"
+                        class="btn btn-light hr-sm  btn-outline btn-hv-light btn-lg btn-default animated  btn-rounded fadeInUpBig visible"
+                        type="button"><i class="fa fa-long-arrow-left left-pad"></i> Voltar</button></a>
+            </div>
+            <a class="navbar-brand m-0" href><img class="navbar-brand-img h-100 w-15" src="logo-ct.png" width="28" height="28" /><span class="ms-2 font-weight-bolder">Usuário<br /></span></a>
+
+                <div id="MainMenu1">
+                    <div class="list-group panel ex-panel border-buttom-nav list-group-item-shadow ">
+                    <div id="sidenav-collapse-main" class="collapse navbar-collapse w-auto">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href><i class="fas fa-home active icon icon-shape icon-sm shadow border-radius-md text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Dashboard<br /></span></a></li>
+        <li class="nav-item"><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a></li>
+        <li class="nav-item mt-3"><span class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account Pages</span></li>
+        <li class="nav-item"><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a></li>
+    </ul>
 </div>
+                    </div>
+                </div>
+                <div id="MainMenu1">
+                    <div class="list-group panel ex-panel">
+                       <div id="sidenav-collapse-main" class="collapse navbar-collapse w-auto">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href><i class="fas fa-home active icon icon-shape icon-sm shadow border-radius-md text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Dashboard<br /></span></a></li>
+        <li class="nav-item"><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a><a class="nav-link" href><i class="fa fa-table icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Tables<br /></span></a></li>
+        <li class="nav-item mt-3"><span class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account Pages</span></li>
+        <li class="nav-item"><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a><a class="nav-link" href><i class="fa fa-user icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center"></i><span class="nav-link-text ms-1">Profile<br /></span></a></li>
+    </ul>
+</div>
+                    </div>
+                </div>
+        </div>
     </div>
     <!-- /category-NAVBAR -->
  <div class="content-wrapper">
@@ -127,9 +98,9 @@
                                  <li class="nav-item"></li>
                                  <li class="nav-item">
                                      <div class="flex-container-text-cabeca menu">
-                                         <!--user-->
+                                         <!-- TITLE-->
                                          <h5 class="text-uppercase list-items ">Elements Clients</h5>
-                                        
+                                         <!-- menu user-->
                                          <ul class="header-text-top list-items">
                                              <li>Usuario</li>
                                              <li>Unidade</li>
@@ -143,8 +114,8 @@
                                      class="nav-item extra-nav display-flex d-none d-xs-block d-md-block  dropdown search-dropdown">
                                      <a href="#" class="close-toggle"><button data-animation="fadeInUpBig"
                                              data-animation-delay="1500"
-                                             class="btn btn-light hr-sm btn-outline btn-hv-light btn-lg btn-default animated fadeInUpBig visible"
-                                             type="button"><i class=" fa right-pad fa-lg fa-bars">
+                                             class="btn btn-light hr-sm  btn-outline btn-hv-light btn-lg btn-default animated  btn-rounded fadeInUpBig visible"
+                                             type="button"><i class=" fas fa-lg fa-bars">
                                              </i> Menu
                                          </button>
                                      </a>
@@ -154,7 +125,7 @@
                                      class="nav-item extra-nav display-flex d-none d-xs-block d-md-block  dropdown search-dropdown">
                                      <a href="#" class="close-toggle"><button data-animation="fadeInUpBig"
                                              data-animation-delay="1500"
-                                             class="btn btn-dark btn-outline btn-hv-light btn-lg left-padding-sm animated fadeInUpBig visible"
+                                             class="btn  btn-dark btn-dark  btn-rounded btn-default  btn-outline btn-hv-light btn-lg btn-default animated  btn-rounded fadeInUpBig visible"
                                              type="button">
                                              <i class="fa fa-sign-out right-pad">
                                              </i> Sair
@@ -170,7 +141,6 @@
      </div>
  </div>
  <!--Modal carrosel--->
-
 <section>
 <div class="container-lg">
 <div class="row externa">
@@ -582,7 +552,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -656,7 +626,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -726,7 +696,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -796,7 +766,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -866,7 +836,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -937,7 +907,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -1007,7 +977,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -1067,7 +1037,7 @@
 
     <!---===================================8° MODAL================================--->
 
-    <div class="modal fade" id="exampleModal8"  aria-controls="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -1077,7 +1047,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="modal-body">
                     <!-- TABS -->
                     <div role="tabpanel">
                         <!-- Nav tabs -->
@@ -1138,69 +1108,82 @@
     <!---===================================9° MODAL================================--->
 
     <!--<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"--->
-    <div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-<section data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <div>
-      <div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
-        <ul class="nav navbar-nav">
-          <li class=""><a href="#section1">Section 1</a></li>
-          <li class=""><a href="#section2">Section 2</a></li>
-          <li class="active"><a href="#section3">Section 3</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li class=""><a href="#section41">Section 4-1</a></li>
-              <li class=""><a href="#section42">Section 4-2</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>    
-
-<div id="section1" class="container-fluid">
-  <h1>Section 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section2" class="container-fluid">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section3" class="container-fluid">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section41" class="container-fluid">
-  <h1>Section 4 Submenu 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>Section 4 Submenu 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-
-
-
-
-
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- TABS -->
+                    <div role="tabpanel">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-pills nav-fill" role="tablist">
+                            <li role="presentation" class="active"><a href="#tab-81" aria-controls="home" role="tab"
+                                    data-toggle="tab" aria-expanded="true">Tab-1</a></li>
+                            <li role="presentation" class=""><a href="#tab-82" aria-controls="profile" role="tab"
+                                    data-toggle="tab" aria-expanded="false">Tab-2</a></li>
+                            <li role="presentation" class=""><a href="#tab-83" aria-controls="messages" role="tab"
+                                    data-toggle="tab" aria-expanded="false">Tab-3</a></li>
+                            <li role="presentation" class=""><a href="#tab-84" aria-controls="settings" role="tab"
+                                    data-toggle="tab" aria-expanded="false">Tab-4</a></li>
+                        </ul>
+                        <!-- /. Nav tabs-->
+                        <!-- Tab panes -->
+                        <div class="tab-content light-bg typo-dark">
+                            <div role="tabpanel" class="tab-pane fade active in" id="tab-81">
+                                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+                                    eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
+                                    rerum hic tenetur a sapiente consectetur adipisicing
+                                    elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                                    Et culpa dolore odio voluptate suscipit corporis sed ad sunt cillum autem aute irure
+                                    dolor in reprehenderit in voluptate velit esse,
+                                    pariatur necessitatibus quaerat fugit tempore, dolores iure ea reprehenderit quis
+                                    esse, pariatur necessitatibus quaerat fugit tempore, dolores iure ea reprehenderit
+                                    quis adipisicing elit. Quod vel officia provident
+                                    ratione itaque dolore explicabo eveniet esse. </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab-82">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui hic praesentium
+                                    recusandae, dignissimos cupiditate, quis harum earum distinctio animi consequuntur
+                                    quos facilis cumque ipsum placeat nihil accusantium voluptatibus,
+                                    reprehenderit possimus.Et culpa dolore odio voluptate suscipit corporis sed ad sunt
+                                    cillum autem aute irure dolor in reprehenderit in voluptate velit esse reprehenderit
+                                    in voluptate velit esse, pariatur necessitatibus
+                                    quaerat fugit tempore, dolores iure ea reprehenderit quis esse, pariatur
+                                    necessitatibus quaerat fugit tempore, dolores iure ea reprehenderit quis adipisicing
+                                    elit. Quod vel officia provident ratione itaque dolore explicabo
+                                    eveniet esse.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab-83">
+                                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+                                    eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
+                                    rerum hic tenetur a sapiente consectetur adipisicing
+                                    elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                                    Et culpa dolore odio voluptate suscipit corporis sed ad sunt cillum autem aute irure
+                                    dolor in reprehenderit in voluptate velit esse,
+                                    pariatur necessitatibus quaerat fugit tempore,ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Qui hic praesentium recusandae, dignissimos cupiditate, quis harum
+                                    earum distinctio animi consequuntur quos facilis cumque,
+                                    reprehenderit possimus. </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab-84">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vel officia provident
+                                    ratione itaque dolore explicabo eveniet velit perspiciatis, pariatur necessitatibus
+                                    quaerat fugit tempore, dolores iure ea reprehenderit
+                                    quis esse. Itaque earum rerum hic tenetur a sapiente consectetur adipisicing elit.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Et
+                                    culpa dolore odio voluptate suscipit corporis sed ad
+                                    sunt cillum autem aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                            </div>
+                        </div>
+                        <!-- /. Tab panes -->
+                    </div>
+                </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
                     <button type="button" class="btn btn-primary">Ir para o site</button>
@@ -1208,8 +1191,6 @@
             </div>
         </div>
     </div>
-    </div>
-    </section>
     <!---===================================./9° MODAL================================--->
 
     <!-- FOOTER SECTION -->
@@ -1261,7 +1242,6 @@
     <script type="text/javascript" src="count-to.js"></script>
     <script type="text/javascript" src="custom.js"></script>
     <script type="text/javascript" src="modi.js"></script>
-    <script type="text/javascript" src="bold-and-dark.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 

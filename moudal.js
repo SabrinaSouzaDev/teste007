@@ -7,3 +7,56 @@ $('#exampleModal').on('show.bs.modal', function(event) {
     modal.find('.modal-title').text('New message to ' + recipient)
     modal.find('.modal-body input').val(recipient)
 })
+
+
+
+$(document).ready(function() {
+    $('.navbar-toggler').on('click', function() {
+        $('body').toggleClass('navbar--opened');
+    });
+});
+
+
+
+
+$('body').scrollspy({ target: ".navbar" })
+
+// Add scrollspy to <body>
+$('body').scrollspy({ target: ".navbar", offset: 50 });
+
+// Add smooth scrolling on all links inside the navbar
+$("#myNavbar a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+
+    } // End if
+
+});
+
+MyLearning.loadUser('footer');
+
+function docReady(fn) {
+    document.addEventListener("DOMContentLoaded", fn);
+    if (document.readyState === "interactive" || document.readyState === "complete") {
+        fn();
+    }
+}
+uic_r_z();
+uic_r_d()
